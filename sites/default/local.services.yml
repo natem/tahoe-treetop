@@ -55,7 +55,7 @@ parameters:
     #
     # Not recommended in production environments
     # @default false
-    debug: false
+    debug: true
     # Twig auto-reload:
     #
     # Automatically recompile Twig templates whenever the source code changes.
@@ -153,3 +153,7 @@ parameters:
     - sftp
     - webcal
     - rtsp
+
+services:
+    cache.backend.null:
+      class: Drupal\Core\Cache\NullBackendFactory
