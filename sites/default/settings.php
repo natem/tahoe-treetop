@@ -709,17 +709,21 @@ $settings['container_yamls'][] = __DIR__ . '/services.yml';
  *
  * Keep this code block at the end of this file to take full effect.
  */
-if (file_exists(__DIR__ . '/settings.local.php')) {
-   include __DIR__ . '/settings.local.php';
- }
+
+/**
+*if (file_exists(__DIR__ . '/settings.local.php')) {
+*   include __DIR__ . '/settings.local.php';
+*}
+*/
+
 $databases['default']['default'] = array (
-  'database' => 'tahoetreetop',
-  'username' => 'root',
-  'password' => 'root',
+  'database' => 'tree_dev',
+  'username' => 'treetop',
+  'password' => 'VPfEZxo4{ur6yQ',
   'prefix' => '',
   'host' => 'localhost',
-  'port' => '3306',
-  'namespace' => 'Drupal\\Core\\Database\\Driver\\mysql',
+  'port' => '',
+  'namespace' => '',
   'driver' => 'mysql',
 );
 $settings['install_profile'] = 'standard';
