@@ -1,0 +1,18 @@
+css-stuff:
+  version: VERSION
+  css:
+    theme:
+      css/css-stuff.css: {}
+      css/css-stuff-print.css: { media: print }
+      //fonts.googleapis.com/css?family=Abhaya+Libre: { type: external }
+
+widget:
+  version: VERSION
+  js:
+     js/widget.js: {}
+  css:
+    theme:
+      css/widget.css: {}
+  dependencies:
+     - core/drupal
+     - core/jquery

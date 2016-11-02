@@ -717,9 +717,9 @@ $settings['container_yamls'][] = __DIR__ . '/services.yml';
 */
 
 $databases['default']['default'] = array (
-  'database' => 'tree_dev',
-  'username' => 'treetop',
-  'password' => 'VPfEZxo4{ur6yQ',
+  'database' => 'tahoetreetop',
+  'username' => 'root',
+  'password' => 'root',
   'prefix' => '',
   'host' => 'localhost',
   'port' => '',

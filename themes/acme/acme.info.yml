@@ -1,0 +1,27 @@
+name: Acme
+description: My first Drupal 8 theme.
+type: theme
+base theme: classy
+core: 8.x
+version: VERSION
+
+regions:
+  header: Header
+  primary_menu: 'Primary menu'
+  secondary_menu: 'Secondary menu'
+  breadcrumb: Breadcrumb
+  help: Help
+  hightlighted: Highlighted
+  content: Content
+  sidebar_first: 'Left sidebar'
+  sidebar_second: 'Right Sidebar'
+  footer_top: 'Footer top'
+  footer: Footer
+  page_top: 'Page top'
+  page_bottom: 'Page Bottom'
+
+regions_hidden:
+
+libraries:
+  - acme/css-stuff
+  - acme/css-stuff-print  
