@@ -20,7 +20,7 @@ regions:
   help: Help
   page_top: 'Page top'
   page_bottom: 'Page bottom'
-  highlighted: Highlighted
+  # highlighted: Highlighted
   featured_top: 'Featured top'
   breadcrumb: Breadcrumb
   content: Content
