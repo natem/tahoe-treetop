@@ -53,6 +53,9 @@ global-styling:
       fontawesome/css/font-awesome.min.css: {}
       css/custom.css: {}
       css/landing.css: {}
+      css/treetop-custom/navigation.css: {}
+      css/treetop-custom/body.css: {}
+      css/treetop-custom/global.css: {}
 
   js:
     bootstrap/js/bootstrap.min.js: {}
