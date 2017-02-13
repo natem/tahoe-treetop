@@ -1,6 +1,6 @@
-name: integrity
+name: Tahoe Treetop
 type: theme
-base theme: classy
+base theme: integrity
 description: 'A flexible, recolorable theme with many regions and a responsive, mobile-first layout.'
 package: Core
 # version: VERSION
@@ -8,7 +8,7 @@ package: Core
 stylesheets-remove:
   - '@classy/css/layout.css'
 libraries:
-  - integrity/global-styling
+  - tahoe_treetop/global-styling
 ckeditor_stylesheets:
   - css/base/elements.css
   - css/components/captions.css
