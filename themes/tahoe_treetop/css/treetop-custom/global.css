@@ -5,6 +5,11 @@ h1, h2, h3, h4, h5 {
 	padding-right: 40px;
 }
 
+.region-featured-bottom-first h2, .region-featured-bottom-second h2, .region-featured-bottom-third h2 {
+	padding-left: inherit;
+	padding-right: inherit;
+}
+
 
 .page-node-type-page .main-content .section {
   padding: 0 0px;
