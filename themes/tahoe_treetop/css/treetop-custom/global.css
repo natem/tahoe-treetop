@@ -5,7 +5,7 @@ h1, h2, h3, h4, h5 {
 	padding-right: 40px;
 }
 
-.region-featured-bottom-first h2, .region-featured-bottom-second h2, .region-featured-bottom-third h2, .region-sidebar-first h2 {
+.region-featured-bottom-first h2, .region-featured-bottom-second h2, .region-featured-bottom-third h2, .region-sidebar-first h2, h4.panel-title {
 	padding-left: inherit;
 	padding-right: inherit;
 }
