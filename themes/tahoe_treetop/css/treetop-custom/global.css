@@ -1,5 +1,10 @@
 /* Global Styling */
 
+h1, h2, h3, h4, h5 {
+	padding-left: 40px;
+	padding-right: 40px;
+}
+
 
 .page-node-type-page .main-content .section {
   padding: 0 0px;
@@ -14,6 +19,18 @@
 
 @media (min-width: 768px) {
 	.paragraph p {
+		font-size: 1.35em;
+	}
+}
+
+.paragraph li {
+	margin-left: 50px;
+	margin-right: 50px;
+	font-size: 1.1em;
+}
+
+@media (min-width: 768px) {
+	.paragraph li {
 		font-size: 1.35em;
 	}
 }
