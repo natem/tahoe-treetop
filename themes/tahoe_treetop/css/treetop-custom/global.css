@@ -9,4 +9,20 @@
 .paragraph p {
 	margin-left: 40px;
 	margin-right: 40px;
+	font-size: 1.1em;
+}
+
+@media (min-width: 768px) {
+	.paragraph p {
+		font-size: 1.35em;
+	}
+}
+
+.paragraph .slider-caption p {
+	margin-left: inherit;
+	margin-right: inherit;
+}
+
+.hero-image {
+	padding-bottom: 50px;
 }
