@@ -23,6 +23,11 @@
 	margin-right: inherit;
 }
 
+/* Hero Image */
 .hero-image {
 	padding-bottom: 50px;
+}
+
+.hero-image img {
+	width: 100%;
 }
