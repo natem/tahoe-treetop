@@ -58,6 +58,7 @@ global-styling:
       css/treetop-custom/global.css: {}
       css/treetop-custom/slider.css: {}
       css/treetop-custom/footer.css: {}
+      css/treetop-custom/homepage.css: {}
 
   # js:
     # bootstrap/js/bootstrap.min.js: {}
