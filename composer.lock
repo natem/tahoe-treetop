@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "7d101b08e5ae002d827cd42ae9a4e344",
-    "content-hash": "60f7057617c6d995bf9946d0b12f0b5d",
+    "hash": "6f5f1aa5b794e57b739e4355c99c96f3",
+    "content-hash": "866c3f1d835a8a044d18d1a272022200",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -605,6 +605,50 @@
             "time": "2014-09-09 13:34:57"
         },
         {
+            "name": "drupal/backup_db",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupal.org/project/backup_db",
+                "reference": "8.x-1.0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/backup_db-8.x-1.0.zip",
+                "reference": null,
+                "shasum": "e3b66d5d35ee8ac10b7658e00b8bd65058d3e359"
+            },
+            "require": {
+                "drupal/core": "~8.0",
+                "ifsnop/mysqldump-php": "dev-master"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-1.x": "1.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-1.0",
+                    "datestamp": "1455870839"
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL"
+            ],
+            "authors": [
+                {
+                    "name": "swim",
+                    "homepage": "https://www.drupal.org/user/1968266"
+                }
+            ],
+            "description": "Provides database backup solutions via Drupal.",
+            "homepage": "http://drupal.org/project/backup_db",
+            "support": {
+                "source": "http://cgit.drupalcode.org/backup_db"
+            }
+        },
+        {
             "name": "easyrdf/easyrdf",
             "version": "0.9.1",
             "source": {
@@ -889,6 +933,58 @@
                 "uri"
             ],
             "time": "2016-06-24 23:00:38"
+        },
+        {
+            "name": "ifsnop/mysqldump-php",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ifsnop/mysqldump-php.git",
+                "reference": "f849e428013f34e90b8c950b14d8915f33d8e1b1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ifsnop/mysqldump-php/zipball/f849e428013f34e90b8c950b14d8915f33d8e1b1",
+                "reference": "f849e428013f34e90b8c950b14d8915f33d8e1b1",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "3.7.*",
+                "squizlabs/php_codesniffer": "1.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Ifsnop\\": "src/Ifsnop/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Diego Torres",
+                    "homepage": "https://github.com/ifsnop",
+                    "role": "Developer"
+                }
+            ],
+            "description": "This is a php version of linux's mysqldump in terminal \"$ mysqldump -u username -p...\"",
+            "homepage": "https://github.com/ifsnop/mysqldump-php",
+            "keywords": [
+                "backup",
+                "database",
+                "dump",
+                "export",
+                "mysql",
+                "mysqldump",
+                "pdo",
+                "sqlite"
+            ],
+            "time": "2016-12-27 23:13:57"
         },
         {
             "name": "ircmaxell/password-compat",
